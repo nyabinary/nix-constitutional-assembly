@@ -6,7 +6,7 @@ This document describes the highest level of governance structure for projects u
 
 ## Overview
 
-There are two primary leadership bodies with a different scopes:
+There are two primary leadership bodies with different scopes:
 - The Steering Committee (SC), composed of 7 elected individuals to represent the community, is broadly responsible for technical and community decisions and delegation
 - [The NixOS Foundation board](https://nixos.org/community/teams/foundation-board/), composed of the board members of the Stichting NixOS Foundation, a non-profit organisation in Utrecht, the Netherlands, is broadly responsible for legal, financial and partnership decisions and delegation
 
@@ -19,7 +19,7 @@ This constitution roughly comprises these parts:
 
 ### Steering Committee
 
-In order to guide the projects in accordance with Nix Community Values the Steering Committee shall have the following responsibilities, which it should delegate when appropriate.
+To guide the projects in accordance with Nix Community Values, the Steering Committee shall have the following responsibilities, which it should delegate when appropriate.
 
 - Manage which resources are considered official and manage the official resources
   - This involves both public communication resources and technical infrastructure
@@ -34,7 +34,7 @@ In order to guide the projects in accordance with Nix Community Values the Steer
   - Ensure that escalation points exist and work
     - Final (until significant changes in the circumstances or available data and arguments) decision authority may be delegated, when significant analysis of the issue and the arguments is needed to build the competence to make a good decision. However, if the team receiving the authority does not reach internal consensus, the SC still has the responsibility to handle the delegation failure.
   - Evolve the constitution, including governance structure and governance processes, when appropriate, under supermajority requirements
-- Create and manage teams in order to delegate authority on specific areas to them
+- Create and manage teams to delegate authority on specific areas to them
   - Delegate authority over areas of interest to long-term teams and committees needing specific authority, and evolve their policy
   - Delegate analysis of arguments and the making of a consensus (inside the team) decision on specific contentious issues to short-lived teams
 - In communication with the NixOS Foundation Board, set the policies and priorities for highly visible actions and events, and the resources under the care of the Foundation
@@ -48,12 +48,12 @@ In particular, its responsibilities are to:
 - Own and handle the administrative and legal
   - Serve as an interface between the community and the corporate/governmental/financial world
   - Manage trademarks
-- Handle external relationships, partnerships and donations
+- Handle external relationships, partnerships, and donations
   - Work with the SC to establish foundation policies that balance the interests of volunteers, commercial actors, and public institutions, while staying within legal and administrative feasibility constraints. This includes sponsorship and trademark policies.
   - Build and maintain beneficial and collaborative relationships
   - Maintain and support grants/grant providers
 - Provide a framework for the community to self-organise:
-  - Handle payments for tooling, meetups and infra
+  - Handle payments for tooling, meetups and infrastructure
   - Manage credentials and permissions
 - Own and be responsible for financials
   - Provide fiscal planning and funding for community events and efforts
@@ -61,9 +61,9 @@ In particular, its responsibilities are to:
 
 #### Board Composition Changes
 
-Board changes are decided by a selection committee composed of some delegates from the current board and some delegates from the SC. To block any specific new or continuing appointment of a person, objections from a number of delegates equal to the size of the smaller delegation of the two (board or SC) suffice. For example, with 1 delegate from the board, and 3 delegates from the SC, one delegate from either can block an appointment.
+Board changes are decided by a selection committee composed of some delegates from the current board and some delegates from the SC. To block any specific new or continuing appointment of a person, objections from several delegates equal to the size of the smaller delegation of the two (board or SC) suffice. For example, with 1 delegate from the board, and 3 delegates from the SC, one delegate from either can block an appointment.
 
-This procedure can be invoked by the SC or the board at any point in time.
+This procedure can be invoked by the SC or the board at any time.
 
 ### Steering Committee Decision process
 
@@ -84,7 +84,7 @@ Substantial amendments to the Nix Community Values require 90% agreement in a po
 
 Everything within the authority of SC that doesn't require an extraordinary decision can be decided with a simple majority (at least 50%) of a full SC (vacant seats count as abstaining).
 
-An exception to that is when there is when the [conflict of interest balance](#conflict-of-interest-coi-balance) condition is suspected to be violated, in which case all non-involved currently-serving SC members will have a simple majority decision over whether there is a violation.
+An exception to that is when there is when the [conflict of interest balance](#conflict-of-interest-coi-balance) condition is suspected to be violated. In which case, all non-involved currently serving SC members will have a simple majority decision over whether there is a violation.
 
 ### Composition and Appointment
 
@@ -109,7 +109,7 @@ The list of automatically eligible voters is made public.
 
 People not automatically eligible then have some time to send a request to the EC, which can then make an exception and approve them as voters. This is for people whose official contributions are not visible in the NixOS GitHub organisation, such as:
 - Official event organisers and speakers
-- Maintainers of official third-party accounts (e.g. social media)
+- Maintainers of official third-party accounts (e.g., social media)
 - etc.
 
 After the decisions on exception requests are made, the list of approved requests is also made public.
@@ -124,7 +124,7 @@ The requirements to become a candidate for the SC elections are:
 - Provide a public position statement, why the candidate should be elected and what are the positions on the current issues.
 - To be publicly endorsed by at least 3 other people eligible to vote
   - How endorsements are collected will be specified by the EC
-  - Among the candidate and their endorsers, there must be at least 4 individuals where no two have the same conflict of interest (e.g. employees of the same company or otherwise the same payer for Nix work), as decided by the EC.
+  - Among the candidate and their endorsers, there must be at least 4 individuals where no two have the same conflict of interest (e.g., employees of the same company or otherwise the same payer for Nix work), as decided by the EC.
   - One can endorse a person who has not yet agreed to be a candidate, which also serves as nominating them (subject to acceptance of nomination)
   - Eligible voters may endorse multiple nominees
 - To have been not a member of the SC for at least two complete years of the two immediately preceding terms
@@ -146,19 +146,19 @@ In any election where seats with different end-of-term dates are available, winn
 - The EC for the first election will be the members of the [Nix Constitutional Assembly (NCA)](https://github.com/nixos/nix-constitutional-assembly?tab=readme-ov-file#members), which are thus ineligible to be elected for the first SC
 - And to help the first elected SC establish itself, members of the NCA are integrated into the SC as non-voting members for 6 months after the appointment.
 
-#### Conflict of Interest (CoI) Balance
+#### Conflict of Interest (COI) Balance
 
-To encourage diversity there is a soft limit of one individual with the same CoI (e.g. employees of the same company or otherwise the same payer for Nix work) immediately after election results coming into force. If the results of an election would result in multiple individuals with the same CoI being elected, the lowest vote getters with any particular CoI will be removed until the condition is satisfied. In case of doubts (subsidiaries etc.) the election committee makes a decision. The candidates must disclose already-agreed-upon changes of affilation that are to happen during the term, and at the time of election these are taken into consideration as same-employer collisions.
+To encourage diversity, there is a soft limit of one individual with the same COI (e.g., employees of the same company or otherwise the same payer for Nix work) immediately after election results coming into force. If the results of an election would result in multiple individuals with the same COI being elected, the lowest vote getters with any particular COI will be removed until the condition is satisfied. In case of doubts (subsidiaries etc.) the election committee decides. The candidates must disclose already-agreed-upon changes of affiliation that are to happen during the term, and at the time of election these are considered as same-employer collisions.
 
-Furthermore, there is a hard maximum of two employees with the same CoI at any time. If this condition is suspected to be violated because of job changes, acquisitions, or other events, all non-involved currently-serving SC members will have a simple majority decision over whether there is a violation. In case it is deemed a violation, sufficient members of the committee must resign until the max representation limit is achieved. If it is impossible to find sufficient members to resign, the entire company’s representation will be removed and a new special election is held.
+Furthermore, there is a hard maximum of two employees with the same COI at any time. If this condition is suspected to be violated because of job changes, acquisitions, or other events, all non-involved currently serving SC members will have a simple majority decision over whether there is a violation. In case it is deemed a violation, sufficient members of the committee must resign until the max representation limit is achieved. If it is impossible to find sufficient members to resign, the entire company’s representation will be removed and a new special election shall be held.
 
 #### Special Elections
 
-In the event of a resignation or other loss of a steering committee member (including a [removal for conduct](#removal-for-conduct)), a special election for that position may be held if the SC deems it necessary, or SC does not have half of normal size. Otherwise the missing positions are assumed to be abstaining from all the SC votes. A committee member elected in a special election will serve out the remainder of the term for the person they are replacing, regardless of the length of that remainder.
+In the event of a resignation or other loss of a steering committee member (including a [removal for conduct](#removal-for-conduct)), a special election for that position may be held if the SC deems it necessary, or the SC does not have half of the normal size. Otherwise, the missing positions are assumed to be abstaining from all the SC votes. A committee member elected in a special election will serve out the remainder of the term of the person they are replacing, regardless of the length of that remainder.
 
 #### Full Reelections
 
-A simple majority within the SC may call a reelection of the entire SC based on perceived loss of confidence. In this case it also has to be decided whether this election is considered a special election for the remainders of all the corresponding terms, or an initial election for full 2-year terms for half of the seats rounded up, and 1-year half-terms for the remaining seats.
+A simple majority within the SC may call a reelection of the entire SC based on perceived loss of confidence. In this case, it also has to be decided whether this election is considered a special election for the remainders of all the corresponding terms, or an initial election for full 2-year terms for half of the seats rounded up. It also includes 1-year half-terms for the remaining seats.
 
 ### Removal for conduct
 
